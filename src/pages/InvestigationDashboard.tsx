@@ -108,7 +108,8 @@ export function InvestigationDashboard({
   return (
     <div className="relative min-h-screen bg-void-950 pt-16">
       <StarField density={40} />
-      <div className="relative bg-grid opacity-30 min-h-screen">
+      <div className="absolute inset-0 bg-grid opacity-30 pointer-events-none" />
+      <div className="relative min-h-screen">
 
         {/* Case Header */}
         <div className="border-b border-subtle glass-strong">
